@@ -1,0 +1,76 @@
+.background {
+	z-index: -1;
+	height: 100vh;
+	width: 100vw;
+	background-image: url("../images/IMG_2681.jpg");
+	background-position: bottom;
+	background-size: cover;
+	/*filter: blur(5px);*/
+}
+
+.banner {
+	z-index: 1;
+	height: 100px;
+	width: 100vw;
+	background-color: lightgray;
+	opacity: 0.5;
+	position: absolute;
+}
+
+.banner img {
+	height: 75px;
+	width: 120px;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translateY(-50%);
+	transform: translateX(-50%);
+	margin-left: 2.5vw;
+}
+
+.wrapper {
+	width: 100%;
+	/*position: absolute;
+	top: 35%;
+	transform: translateY(-65%);
+	*/
+	padding-top: 25vmin;
+	padding-left: 5vw;
+}
+
+.wrapper .description {
+	background-color: rgba(255, 255, 255, 0.5);
+	display: block;
+	margin: 0 auto;
+	width: 75%;
+	border-radius: 20px;
+}
+
+.wrapper .description p {
+	padding: 20px;
+	font-weight: 500;
+}
+
+.wrapper img {
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	filter: grayscale(0.5);
+	border-radius: 15px;
+}
+
+@media screen and (max-width: 600px) {
+	.wrapper {
+		padding-top: 30vmin;
+	}
+	
+	.wrapper .description p {
+		font-size: 2.8vmin;
+	}
+	
+	.wrapper img {
+	    height: 130px;
+	    width: 130px;
+	}
+}
