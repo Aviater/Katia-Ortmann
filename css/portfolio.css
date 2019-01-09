@@ -81,9 +81,9 @@
 
 .dropdown {
 	width: 200px;
-	height: 300px;
+	height: 390px;
 	background-color: lightgray;
-	margin-top: -200px;
+	margin-top: -290px;
 	z-index: -1;
 }
 
@@ -133,9 +133,9 @@
 }
 
 .display-projects {
-	-webkit-transform: translateY(260px);  
-      	-ms-transform: translateY(260px);  
-        	transform: translateY(260px);
+	-webkit-transform: translateY(350px);  
+      	-ms-transform: translateY(350px);  
+        	transform: translateY(350px);
 
 	-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.255, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
          	transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.255, 1.000);  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */

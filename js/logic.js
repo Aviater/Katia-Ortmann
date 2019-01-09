@@ -39,6 +39,9 @@ function proOne() {
 	$(".container4").addClass("hide-project-images");
 	$(".container5").addClass("hide-project-images");
 	$(".container6").addClass("hide-project-images");
+	$(".container7").addClass("hide-project-images");
+	$(".container8").addClass("hide-project-images");
+	projects();
 }
 
 function proTwo() {
@@ -48,6 +51,9 @@ function proTwo() {
 	$(".container4").addClass("hide-project-images");
 	$(".container5").addClass("hide-project-images");
 	$(".container6").addClass("hide-project-images");
+	$(".container7").addClass("hide-project-images");
+	$(".container8").addClass("hide-project-images");
+	projects();
 }
 
 function proThree() {
@@ -57,6 +63,9 @@ function proThree() {
 	$(".container4").addClass("hide-project-images");
 	$(".container5").addClass("hide-project-images");
 	$(".container6").addClass("hide-project-images");
+	$(".container7").addClass("hide-project-images");
+	$(".container8").addClass("hide-project-images");
+	projects();
 }
 
 function proFour() {
@@ -66,6 +75,9 @@ function proFour() {
 	$(".container4").removeClass("hide-project-images");
 	$(".container5").addClass("hide-project-images");
 	$(".container6").addClass("hide-project-images");
+	$(".container7").addClass("hide-project-images");
+	$(".container8").addClass("hide-project-images");
+	projects();
 }
 
 function proFive() {
@@ -75,6 +87,9 @@ function proFive() {
 	$(".container4").addClass("hide-project-images");
 	$(".container5").removeClass("hide-project-images");
 	$(".container6").addClass("hide-project-images");
+	$(".container7").addClass("hide-project-images");
+	$(".container8").addClass("hide-project-images");
+	projects();
 }
 
 function proSix() {
@@ -84,4 +99,31 @@ function proSix() {
 	$(".container4").addClass("hide-project-images");
 	$(".container5").addClass("hide-project-images");
 	$(".container6").removeClass("hide-project-images");
+	$(".container7").addClass("hide-project-images");
+	$(".container8").addClass("hide-project-images");
+	projects();
+}
+
+function proSeven() {
+	$(".container").addClass("hide-project-images");
+	$(".container2").addClass("hide-project-images");
+	$(".container3").addClass("hide-project-images");
+	$(".container4").addClass("hide-project-images");
+	$(".container5").addClass("hide-project-images");
+	$(".container6").addClass("hide-project-images");
+	$(".container7").removeClass("hide-project-images");
+	$(".container8").addClass("hide-project-images");
+	projects();
+}
+
+function proEight() {
+	$(".container").addClass("hide-project-images");
+	$(".container2").addClass("hide-project-images");
+	$(".container3").addClass("hide-project-images");
+	$(".container4").addClass("hide-project-images");
+	$(".container5").addClass("hide-project-images");
+	$(".container6").addClass("hide-project-images");
+	$(".container7").addClass("hide-project-images");
+	$(".container8").removeClass("hide-project-images");
+	projects();
 }
